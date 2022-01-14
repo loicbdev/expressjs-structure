@@ -23,3 +23,5 @@ The test folder has subfolders like unit and integration for unit and integratio
 
 The unit folder inside the test folder will have a structure similar to the src folder, as each file in the src folder will need a test, and it is best to follow the same structure, like so:
 
+
+<img src="https://imgur.com/CyeQhYg.png" alt="folder structure"/>
