@@ -25,3 +25,9 @@ The unit folder inside the test folder will have a structure similar to the src 
 
 
 <img src="https://imgur.com/CyeQhYg.png" alt="folder structure"/>
+
+The helper.util.test.js file is placed inside the utils folder in the unit folder. This is the same pattern as in the src folder. In our example project in the next section, we will use Jest to write and run the tests.
+
+Even with this folder structure, some things can be missed. For example, if your project is using RabbitMQ with Node, you will need to keep the publishers and consumers in well-organized folders. Similarly, if you are creating a CLI application to do web scraping with Node, this project structure might be only partially helpful. Having mentioned that, this folder structure will suffice for most API or general web projects that need a better layout.
+
+Also, keep in mind that other files may be needed, like a .env file to keep the secrets safe and different per deployment environment. In the next part, we will look into an example project that follows the structure I have just laid out.
