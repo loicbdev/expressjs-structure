@@ -1,5 +1,7 @@
 # expressjs-structure
 
+https://blog.logrocket.com/organizing-express-js-project-structure-better-productivity/
+
 <img src="https://imgur.com/IFv6zzP.png" alt="folder structure"/>
 
 Folder structure
