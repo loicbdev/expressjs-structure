@@ -1,6 +1,6 @@
 # expressjs-structure
 
-<img src="https://imgur.com/QpKhOoq.png" alt="folder structure"/>
+<img src="https://imgur.com/IFv6zzP.png" alt="folder structure"/>
 
 Folder structure
 In the image above, you will see two main folders: src houses the source code, and test has all the testing code in it. Time to dig a bit deeper into the src subfolders.
@@ -24,7 +24,7 @@ The test folder has subfolders like unit and integration for unit and integratio
 The unit folder inside the test folder will have a structure similar to the src folder, as each file in the src folder will need a test, and it is best to follow the same structure, like so:
 
 
-<img src="https://imgur.com/CyeQhYg.png" alt="folder structure"/>
+<img src="https://imgur.com/CyeQhYg.png" alt="folder tests structure"/>
 
 The helper.util.test.js file is placed inside the utils folder in the unit folder. This is the same pattern as in the src folder. In our example project in the next section, we will use Jest to write and run the tests.
 
